@@ -1,0 +1,11 @@
+package hari1;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        String nama_depan = " Aril";
+        String nama_belakang = "  Malia";
+        System.out.print(nama_depan + nama_belakang);
+    }
+    
+}
