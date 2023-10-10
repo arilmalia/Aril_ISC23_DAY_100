@@ -1,0 +1,27 @@
+package hari2;
+public class Main {
+    
+    public static void main(String[] args) {
+        String nama = "Aril Malia";
+        char GD = 'o';
+        short tgll= 01;
+        int bulan_lahir = 9;
+        byte umur = 19;
+        double bb = 51.5;
+        long tinggibadan = 166;
+        float nohp = 085242538253f;
+        boolean jenis_kelamin_pria= true;
+        
+        System.out.println ("Nama              : " + nama );
+        System.out.println ("Golongan darah    : " + GD);
+        System.out.println ("Tanggal Lahir     : " + tgll);
+        System.out.println ("Tahun Lahir       : " + bulan_lahir);
+        System.out.println ("Umur              : " +  umur );
+        System.out.println ("Berat badan       : " + bb);
+        System.out.println ("Tinggi badan      : " + tinggibadan);
+        System.out.println ("No.Hp             : " + nohp);
+        System.out.println ("Jenis kelamin     : " + jenis_kelamin_pria);
+        
+    }
+    
+}
