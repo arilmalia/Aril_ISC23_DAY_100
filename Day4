@@ -1,0 +1,33 @@
+package day4;
+
+//Deklarasi kelas
+public class Main {
+    
+    public static void main(String[] args) {
+        //deklarasi fariabel
+        String nama;
+        char inisial;
+        int umur;
+        float berat;
+        double tinggi;
+        boolean jomblo;
+        
+        //pemberian nilai ke variabel
+        nama = "Aril_Malia";
+        inisial = 'A';
+        umur = 19;
+        berat = 50;
+        tinggi = 16.6;
+        jomblo = false;
+        
+        //Menampilkan hasil
+        System.out.println("Nama Saya \t\t : " + nama );
+        System.out.println("Berinisial \t\t : " + inisial);
+        System.out.println("Umur Saya \t\t : " + umur);
+        System.out.println("Berat Saya \t\t : " + berat);
+        System.out.println("Tinggi Saya \t\t :" + tinggi);
+        System.out.println("Tdk punya pacar\t\t:" + jomblo);
+        
+    }
+    
+}
