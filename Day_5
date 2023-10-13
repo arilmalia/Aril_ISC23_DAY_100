@@ -1,0 +1,22 @@
+package hari5;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        
+        final double TARIF= 0.5;
+        final double TARIF2= 0.4;
+        
+        
+        double penjualan = 15000.0;
+        double pendapatan = 40000.0;
+        
+        double pajakPRM = penjualan*TARIF;
+        double pajakPPH = pendapatan*TARIF2;
+        
+        
+        System.out.println("ANDA DI KENAKAN PAJAK:"+pajakPRM);
+        System.out.println("ANDA DI KENAKAN PAJAK:"+ pajakPPH);
+    }
+    
+}
