@@ -1,0 +1,20 @@
+package hari_7;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        //menghitung luas persegi 
+        
+        System.out.print("Masukan panjang\t\t: ");
+        int p = input.nextInt();
+        System.out.print("Masukan lebar\t\t: ");
+        int L = input.nextInt();
+        
+        
+        System.out.print("luas persegi adalah\t: "+ (p*L));
+        
+        
+    }
+    
+}
