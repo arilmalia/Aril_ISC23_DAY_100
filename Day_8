@@ -1,0 +1,32 @@
+package day_8;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        //oprator penugasan aritmatika
+        
+        
+        int a = 10;
+        a += 5;
+        
+        int b = 15;
+        b -= 10;
+        
+        int c = 50;
+        c /= 10;
+        
+        int d = 5;
+        d *= 5;
+        
+        int e = 37;
+        e %= 7;
+        
+        System.out.println("Hasil a\t\t:" + a);
+        System.out.println("Hasil b\t\t:" + b);
+        System.out.println("Hasil c\t\t:" + c);
+        System.out.println("Hasil d\t\t:" + d);
+        System.out.println("Hasil e\t\t:" + e);
+        
+    }
+    
+}
