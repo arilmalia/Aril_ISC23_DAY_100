@@ -1,0 +1,38 @@
+package hari9;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        // Oprator perbandingan
+        
+        int angkaA = 20;
+        int angkaB = 10;
+        boolean hasil;
+        
+        // AngkaA  lebih besar dari angkaB
+        hasil = angkaA > angkaB;
+        System.out.println(hasil);
+        
+        // AngkaA lebi besar atau sama denagn angkab
+        hasil = angkaA >= angkaB;
+        System.out.println(hasil);
+        
+        //AngkaA  lebih kecil dari angkaB
+        hasil = angkaA < angkaB;
+        System.out.println(hasil);
+                
+        // AngkaA lebih kecil atau sama dengan angkaB
+        hasil = angkaA <= angkaB;
+        System.out.println(hasil);
+                        
+        // AngkaA  sama dengan angkaB
+        hasil = angkaA == angkaB;
+        System.out.println(hasil);
+                        
+        // AngkaA  tidak sama dengan angkaB
+        hasil = angkaA != angkaB;
+        System.out.println(hasil);
+        
+    }
+    
+}
