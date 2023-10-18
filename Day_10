@@ -1,0 +1,26 @@
+package hari10;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        //Oprator lagika
+        boolean a = true;
+        boolean b = false;
+
+        // Operator AND (&&)
+        boolean hasilAnd = a && b;
+        System.out.println("Hasil a And b\t : " + hasilAnd);
+
+        // Operator OR (||)
+        boolean Or = a || b;
+        System.out.println("Hasil a or b\t : " + Or);
+
+        // Operator NOT (!)
+        boolean NotA = !a;
+        System.out.println("Hasil Not_a\t : " + NotA);
+
+        boolean NotB = !b;
+        System.out.println("Hasil Not_b\t : " + NotB);
+    }
+    
+}
