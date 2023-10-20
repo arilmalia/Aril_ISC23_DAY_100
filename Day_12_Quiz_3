@@ -1,0 +1,30 @@
+package hari12;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int m ;
+        int n ;
+        System.out.println("=Syarat nya nilai M harus = dari nilai n=\n");
+        
+        System.out.print("Maukan nilai m : ");
+        m = input.nextInt();
+        System.out.print("masukan nilai n : ");
+        n = input.nextInt();
+        
+        if (m<=n){
+            int total=0;
+            for(int a = m+1; a<n;a++){
+                total += a;
+            System.out.print(a);
+                
+                if (a<n-1){
+                    System.out.print("+");
+                    }
+            }
+        
+            System.out.print("="+total);
+        }
+            }
+    }
