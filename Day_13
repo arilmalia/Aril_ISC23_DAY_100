@@ -1,0 +1,31 @@
+package gari13;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        
+        double gaji_bersi;
+        
+        System.out.print("Masukan Penghasilan Anda : ");
+        double penghasilan = input.nextDouble();
+        
+        if(penghasilan <2000000){
+            gaji_bersi = penghasilan;
+            System.out.print("Tidak dikenakan pajak ");
+            System.out.print("Jadi gaji anda adalah " + (gaji_bersi = penghasilan));
+         
+        }else if(penghasilan >=5000000){
+            gaji_bersi = penghasilan - (penghasilan*0.1);
+            System.out.print("Karena Dipotong Pajak Sebesar 10%");
+            System.out.print("Jadi Gaji Bersi Anda Adalah " + (gaji_bersi = penghasilan - (penghasilan*0.1)));
+            
+        }else if(penghasilan >=2000000 && penghasilan <5000000){
+            gaji_bersi = penghasilan - (penghasilan*0.05);
+            System.out.print("Karena Dipotong Pajak Sebesar 5%");
+            System.out.print("Jadi Gaji Bersi Anda Adalah ");
+            System.out.print(gaji_bersi = penghasilan - (penghasilan*0.05));
+        }
+    }
+    
+}
