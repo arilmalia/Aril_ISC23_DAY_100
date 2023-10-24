@@ -1,0 +1,38 @@
+package hari16;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+        int panjang_tanah,lebar_tanah, HargaPerMeter,luas_tanah, harga_jual;
+        
+        System.out.print("Masukan panjang tanah\t: ");
+        panjang_tanah = input.nextInt();
+        
+        System.out.print("Masukan  lebar tanah\t: ");
+        lebar_tanah = input.nextInt();
+        
+        HargaPerMeter = 300000;
+        
+        luas_tanah = panjang_tanah*lebar_tanah;
+        System.out.print("luas tanah adalah\t: " + luas_tanah+ " m² \n");
+        
+        harga_jual = HargaPerMeter*luas_tanah;
+        System.out.print("harga jual nya\t\t: "+harga_jual);
+        
+        if(harga_jual<50000000){
+            System.out.print("\nharga tanah anda di kenakan pajak sebesar 1% ");
+            System.out.print("\njadi harga bersi penjualan tanah nya adalah\n:Rp " + (harga_jual-(harga_jual*0.01)));
+            
+        }else if (harga_jual>=50000000 && harga_jual<=100000000){
+            System.out.print("\nharga tanah anda dikenakan pajak sebesar 3% ");
+            System.out.print("\njadi harga bersih penjualan tanah anda adalah\n:Rp " + (harga_jual-(harga_jual*0.03)));
+            
+        }else if (harga_jual >100000000){
+            System.out.print("\nharga tanah anda dikenakan pajak sebesar 5% ");
+        System.out.print("\njadi hasil bersih penjualan tanah anda adalah\n:Rp " + (harga_jual-(harga_jual*0.05)));
+        }
+    }
+    
+}
