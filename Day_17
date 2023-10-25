@@ -1,0 +1,42 @@
+package hari17;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args){
+        Scanner input = new Scanner(System.in);
+        int pil, porsi, harga = 0;
+        System.out.println("Menu Makanan : ");
+        System.out.println("1. Bakso \n2 Mie Ayam \n3 Es Teh ");
+        System.out.print("Pilih : ");
+        pil = input.nextInt();
+        
+        switch (pil){
+            case 1:
+                   System.out.print("porsi : ");
+                   porsi = input.nextInt();
+                   System.out.println("Bakso (13K/porsi)");
+                   harga = 13000 * porsi;
+                   System.out.print("Total : Rp " + harga );
+                   break;
+            case 2:
+                   System.out.print("porsi : ");
+                   porsi = input.nextInt();
+                   System.out.println("Mie Ayam (10K/porsi)");
+                   harga = 10000 * porsi;
+                   System.out.print("Total : Rp " + harga);
+                   break;
+            case 3:
+                   System.out.print("porsi : ");
+                   porsi = input.nextInt();
+                   System.out.println("Es Teh(5K/gelas)");
+                   harga = 5000 * porsi;
+                   System.out.print("Total : Rp" + harga);
+                   break;
+            default:
+                   System.out.println("Pilihan salah "+ 0);
+                   
+        }
+        
+    }
+    
+}
