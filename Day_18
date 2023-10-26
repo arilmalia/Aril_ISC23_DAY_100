@@ -1,0 +1,45 @@
+package hari18;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+        double angka1,angka2;
+        char operator;
+        
+        System.out.print("masukan angka1\t: ");
+        angka1 = input.nextDouble();
+        
+        System.out.print("masukan oprator\t: ");
+        operator = input.next().charAt(0);
+        
+        System.out.print("masukan angka2\t: ");
+        angka2 = input.nextDouble();
+        
+        switch(operator){
+            case '+':
+            System.out.print("hasil penjumlahannya adalah : " + (angka1 + angka2));
+            break;
+            
+            case'-':
+            System.out.print("hasil pengurangannya adalah :  " + (angka1 - angka2));
+            break;
+            
+            case'*':
+            System.out.print("hasil perkaliannya adalah :  " + (angka1 * angka2));
+            break;
+            
+            case'/':
+            System.out.print("hasil pembagiannya adalah :  " + (angka1 / angka2));
+            break;
+            
+            case'%':
+            System.out.print("sisah bagi atau modulusnya adalah : " + (angka1 % angka2));
+            break;
+            
+        }
+        
+    }
+    
+}
