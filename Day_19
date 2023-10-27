@@ -1,0 +1,28 @@
+package hari19;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        int awal,ahir;
+        
+        System.out.println("perulangan");
+        System.out.print("awal \t: ");
+        awal = input.nextInt();
+        System.out.print("ahir \t: ");
+        ahir = input.nextInt();
+        
+        for(int a = awal; a<=ahir;a+=2){
+            System.out.print(a);
+            
+            if(a<ahir-1){
+                System.out.print(" , ");
+            }
+        }
+        
+        
+        
+    }
+    
+    
+}
