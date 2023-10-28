@@ -1,0 +1,39 @@
+package isc_2023;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner masukan = new Scanner(System.in);
+        double Matematika, Fisika, DDP, Agama, PSTI, Jumlah_nilai, Nilai_rata_rata, Nilai_KKM;
+        System.out.print("Nilai Matematika\t: ");
+        Matematika = masukan.nextDouble();
+        
+        System.out.print("Nilai Fisika \t\t: ");
+        Fisika = masukan.nextDouble();
+        
+        System.out.print("Nilai DDP \t\t: ");
+        DDP = masukan.nextDouble();
+        
+        System.out.print("Nilai Agama \t\t: ");
+        Agama = masukan.nextDouble();
+        
+        System.out.print("Nilai PSTI \t\t: ");
+        PSTI = masukan.nextDouble();
+        System.out.println("==============");
+        Nilai_KKM = 75;
+        System.out.println("Nilai KKM \t\t: "+ Nilai_KKM);
+        
+        Jumlah_nilai= Matematika+Fisika+Agama+DDP+PSTI;
+        System.out.println("Jumlah semua nilai anda\t: "+Jumlah_nilai);
+        
+        Nilai_rata_rata= Jumlah_nilai / 5;
+        System.out.println("Nilai rata-rata anda \t: "+Nilai_rata_rata);
+        
+        if(Nilai_rata_rata >= Nilai_KKM){
+            System.out.println("\tSelamat anda Tuntas ");
+            
+        }else{
+            System.out.println("\tMaaf anda belum tuntas");
+        }
+    }
+}
