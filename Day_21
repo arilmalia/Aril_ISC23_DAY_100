@@ -1,0 +1,25 @@
+package isc_2023;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        
+        String user = "user";
+        int password = 123;
+        
+        System.err.print("Masukkan username : ");
+        user = input.nextLine();
+
+        System.err.print("Masukkan password : ");
+        password = input.nextInt();
+
+        if (user.equals ("user")&& (password == 123)) {
+            System.err.println("Login berhasil! Selamat datang  (◍•ᴗ•◍)" );
+            
+        } else {
+            System.err.println("\tLogin gagal.\nPeriksa kembali username dan password.\n( ⚈̥̥̥̥̥́⌢⚈̥̥̥̥̥̀)( ⚈̥̥̥̥̥́⌢⚈̥̥̥̥̥̀)");
+        }
+    }
+    
+}
