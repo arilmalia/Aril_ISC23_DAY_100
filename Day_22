@@ -1,0 +1,23 @@
+package isc_2023;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        System.out.print("Masukan batas : ");
+        int batas = input.nextInt();
+        
+        for ( int a = 1; a< batas; a++){
+            System.out.print("masukan angka : ");
+            int angka = input.nextInt();
+            
+            if(angka %2 == 0 && angka!= 0){
+                System.out.println("genap");
+                
+            }else{
+                System.out.println("ganjil");
+            }
+        }
+        
+    }
+}
