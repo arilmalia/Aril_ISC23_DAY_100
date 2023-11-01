@@ -1,0 +1,25 @@
+package isc_2023;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Masukan P/L: ");
+        String pil = input.nextLine();
+        
+        switch(pil){
+            case "L":
+            case "l":
+            System.out.print("laki-laki");
+            break;
+            
+            case "P":
+            case "p":
+            System.out.print("Perempuan");
+            break;
+            
+            default:
+            System.out.print("pilihan salah");
+        }
+    }
+}
