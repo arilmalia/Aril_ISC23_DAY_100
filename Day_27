@@ -1,0 +1,18 @@
+package isc_2023;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Masukan angka : ");
+        int ahir = input.nextInt();
+        
+        for (int a=1; a<ahir;a++){
+            for (int b=1;b<ahir;b++){
+            System.out.print("* ");
+        }
+        System.out.println(" ");
+        }
+    }
+}
+        
