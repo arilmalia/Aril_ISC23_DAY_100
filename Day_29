@@ -1,0 +1,30 @@
+package ISC_2023;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int awal, ahir, baris;
+        System.out.print("Awal : ");
+        awal = input.nextInt();
+        System.out.print("Ahir : ");
+        ahir = input.nextInt();
+        int a= awal;
+        baris =1;
+        while(a <= ahir){
+            int hasil = a%2;
+            if(hasil == 1){
+            System.out.print(a+" ");
+                if(baris == 5 ){
+                    System.out.println(" ");
+                    baris=0;
+                }
+                baris++;
+            
+            } 
+            a++;
+            
+        }
+        System.out.print(" ");
+    }
+}
