@@ -1,0 +1,17 @@
+package ISC_2023;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        int a =1;
+        
+        do{
+            System.out.println("do while " +a);
+            a++;
+            
+        }while(a<=10);
+        
+    }
+}
+        
+        
