@@ -1,0 +1,23 @@
+package ISC_2023;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Masukan nilai anda\t: ");
+        int nilai = input.nextInt();
+        int KKM = 75;
+        
+        String hasil = nilai >= KKM? "\tTuntas ":" Tidak Tuntas ";
+        System.out.println("-----------------------------");
+        System.out.println("Nilai anda adalah\t: " + nilai);
+        System.out.println("-----------------------------");
+        System.out.println("\tanda dinyatakan " + hasil);
+        System.out.println("\t-----------------------------");
+        
+        
+    }
+}
+        
+        
