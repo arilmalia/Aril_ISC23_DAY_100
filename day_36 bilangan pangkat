@@ -1,0 +1,23 @@
+package rilll;
+import java.util.*;
+public class Rilll {
+
+        public static void main(String[] args) {
+            Scanner input  = new Scanner(System.in);
+            int bilangan, pangkat, hasil;
+            System.out.print("Masukan angka    : ");
+            bilangan = input.nextInt();
+            System.out.print("Masukan pangkat  : ");
+            pangkat = input.nextInt();
+            
+            hasil=bilangan;
+            
+            for(int i=1; i< pangkat; i++){
+                hasil*=bilangan;
+                System.out.println("------------------------------------------");
+                System.out.println("hasil : " + hasil);
+                
+            }
+    }
+    
+}
