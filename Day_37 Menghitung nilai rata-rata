@@ -1,0 +1,22 @@
+package ISC_2023;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int max = 4;
+        double nilai,total=0,rerata;
+        for (int i = 1; i<=max;i++){
+            System.out.print("Masukan nilai"+i+ "\t: ");
+            nilai = input.nextDouble();
+            
+            total +=nilai;
+        }
+        rerata = total/max;
+        System.out.println("total\t\t: " + total);
+        System.out.println("rata-rata nilai\t:" + rerata);
+        
+    }
+}
+        
+        
