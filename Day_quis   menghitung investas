@@ -1,0 +1,24 @@
+package ISC_2023;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int tahun;
+        double modal,investasi=0;
+        
+        System.out.print("Masukan modal\t: ");
+        modal = input.nextDouble();
+        System.out.print("Tahun\t\t: ");
+        tahun = input.nextInt();
+        System.out.print("\n");
+        for (int i = 1; i <= tahun; i++) {
+            investasi = 0.05 * modal;
+            modal +=investasi;
+             System.out.println("Tahun ke "+ i + "\t: "+modal);
+        }
+            System.out.println("\n");
+             System.out.println("jadih hasil selama "+ tahun+" adalah " + modal);
+    }
+    
+}
