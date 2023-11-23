@@ -1,0 +1,34 @@
+package ISC_2023;
+public class Main {
+    
+    public static void main(String[] args) {
+    
+        
+        int[] a = {101, -21, 333, 188, 269};
+        int jumlah = a.length;
+        int min = a[0],max = a[0];
+        
+        System.out.println("---------------------------------------");
+        
+        System.out.print("Deret : ");
+        
+        
+        for(int i = 0 ; i < jumlah; i++){	
+            System.out.print(a[i]+" ");
+            if(a[i] <min){
+                min= a[i];
+            }
+            if (a[i]>max){
+                max = a[i];
+            }
+        }
+        
+        System.out.println("");
+        System.out.println("---------------------------------------");
+        System.out.println("maka nila terkecilnya \t: "+min);
+        System.out.println("maka nila terbesarnya \t: "+max);
+        System.out.println("---------------------------------------");
+    }
+    
+}
+
