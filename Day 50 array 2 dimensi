@@ -1,0 +1,17 @@
+package ISC_2023;
+public class Main {
+    
+    public static void main(String[] args) {
+        String [][] a =
+        {
+            {"aril","holil"},
+            {"gedry","udin"}
+        };
+        System.out.print(a[0][1]);
+    }
+}
+        
+        
+        
+
+
