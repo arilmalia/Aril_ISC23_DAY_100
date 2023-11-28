@@ -1,0 +1,21 @@
+package ISC_2023;
+public class Main {
+    
+    public static void main(String[] args) {
+        String [][] jml =
+        {
+            {"aril",  " (082)"," mamasa"},
+            {"gedry", " (085)"," kalimantan"},
+            {"Holi",  " (089)"," tinambung"}
+        };
+        for (int i = 0; i<= jml.length; i++){
+            for (int j = 0; j<jml[i].length; j++){
+                System.out.print(jml[i][j]);
+                
+            }
+            System.out.println("");
+        }
+    }
+}
+        
+        
