@@ -1,0 +1,20 @@
+package ISC_2023;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        String [] ril = {"Aril", "Gedry", "Risky", "Rayen", "hera","Udin","kak lisa"};
+        System.out.println("ada "+ ril.length + " index ");
+        
+        int A = 0; 
+        System.out.print("cari : "); // cari sesuai dengan jumlah index nya.
+        A = input.nextInt();
+        
+        if (A >= 0 && A <= ril.length) {
+            System.out.println("index ke - " + A + ": " + ril[A]);
+        } else {
+            System.out.println("Indeks tidak valid");
+        }
+    }
+}
