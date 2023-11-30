@@ -1,0 +1,13 @@
+package ISC_2023;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        String [] ril = {"Aril", "Holil", "Gedry", "Rayen", "Risky"};
+        System.out.println("Menggunakan perulangan for:");
+        
+        for (int i = 0; i <= ril.length; i++) {
+            System.out.println("\n"+ril[i]);
+        }
+    }
+}
