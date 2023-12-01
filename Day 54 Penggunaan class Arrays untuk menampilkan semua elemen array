@@ -1,0 +1,15 @@
+package ISC_2023;
+import java.util.Arrays;
+public class Main {
+    
+    public static void main(String[] args) {
+        int [] angka = {1, 2, 3, 4, 5};
+        
+        System.out.println("array dengan int   : " + Arrays.toString(angka));
+        System.out.println("---------------------------------------------\n");
+        
+        String [] kata = {"Halo", "gais", " saya", "Aril, " , "Malia"};
+        System.out.println(" array dengan  String : "+ Arrays.toString(kata));
+    
+    }
+}
