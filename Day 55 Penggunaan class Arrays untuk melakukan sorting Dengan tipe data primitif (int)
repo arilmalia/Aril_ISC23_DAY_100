@@ -1,0 +1,18 @@
+package ISC_2023;
+import java.util.Arrays;
+public class Main {
+    
+    public static void main(String[] args) {
+        
+        int [] angka = {5, 2, 9, 1, 5, 7, 8, 3};
+        
+        System.out.println("Array sebelum sorting : " + Arrays.toString(angka));
+        
+         System.out.println("=================================================");
+        
+         Arrays.sort(angka);
+        
+        System.out.println("Array setelah sorting   : " + Arrays.toString(angka));
+    }
+}
+
