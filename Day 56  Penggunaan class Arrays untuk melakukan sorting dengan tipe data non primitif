@@ -1,0 +1,16 @@
+package ISC_2023;
+import java.util.Arrays;
+public class Main {
+    
+    public static void main(String[] args) {
+        
+        String [] kata = {"holil", "risky", "aril","gedri", "kak lisa "};
+        System.out.println("Seblm di Sorting   : " +Arrays.toString(kata));
+        
+        System.out.println("-------------------------------------------");
+        
+        Arrays.sort(kata);
+        System.out.print("Sesudah di Sorting : "+Arrays.toString(kata));
+
+    }
+}
