@@ -1,0 +1,17 @@
+package ISC_2023;
+import java.util.Arrays;
+public class Main {
+    
+    public static void main(String[] args) {
+        
+        float [] koma = {3.9f, 0.1f,1.6f, 9.9f, 4.5f};
+        System.out.println("Seblm di Sorting   : " +Arrays.toString(koma));
+        
+        System.out.println("-------------------------------------------");
+        
+        Arrays.sort(koma);
+        System.out.print("Sesudah di Sorting : "+Arrays.toString(koma));
+
+    }
+}
+
