@@ -1,0 +1,29 @@
+package ISC_2023;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("Masukkan jumlah baris: ");
+        int baris = scanner.nextInt();
+        System.out.print("Masukkan jumlah kolom: ");
+        int kolom = scanner.nextInt();
+        
+        int[][] ril= new int[baris][kolom];
+        
+        for (int i = 0; i < baris; i++) {
+            for (int j = 0; j < kolom; j++) {
+                System.out.print("Masukkan elemen untuk baris " + (i + 1) + " dan kolom " + (j + 1) + ": ");
+                ril[i][j] = scanner.nextInt();
+            }
+        }
+        System.out.println("Matriks yang dimasukkan:");
+        for (int i = 0; i < baris; i++) {
+            for (int j = 0; j < kolom; j++) {
+                System.out.print(ril[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+}
