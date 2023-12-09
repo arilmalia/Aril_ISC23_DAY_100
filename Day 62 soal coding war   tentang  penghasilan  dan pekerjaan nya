@@ -1,0 +1,52 @@
+package ISC_2023;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        double gaji;
+        String pekerjaan;
+        double pajak = 0;
+        String a = "PNS";
+        String b = "Bukan PNS";
+        
+        System.out.print("Masukan pekerjaan anda          : ");
+        pekerjaan = input.nextLine();
+        System.out.print("Masukan gaji anda               : ");
+        gaji = input.nextDouble();
+        
+        if(pekerjaan.equalsIgnoreCase(a)){
+            if(gaji<3000000){
+             System.out.println("Karena anda PNS , gaji anda dikenakan pajak sebesar 5%");
+                pajak = (gaji-(gaji*0.5));
+             System.out.println("Maka gaji bersi anda adalah  : Rp  "+ pajak);
+     
+            }else if(gaji>=3000000 && gaji <5000000){
+              System.out.println("karena anda pns maka, gaji anda di kenakan pajak sebesar 10%");
+              pajak = (gaji-(gaji*0.1));
+             System.out.println("Maka gaji bersi anda adalah   : Rp"+ pajak);
+     
+            }else if(gaji >=5000000){
+              System.out.println("karena anda pns maka, gaji anda dikenakan pajak 15%");
+              pajak =(gaji-(gaji*0.15));
+             System.out.println("Maka gaji anda saat ini adalah    : Rp"+ pajak);
+     
+            }
+        }else if (pekerjaan.equalsIgnoreCase(b)){
+            if(gaji<3000000){
+             System.out.println("gaji anda tidak di kenakan pajak ");
+             System.out.println("Maka gaji  anda saat ini adalah  : Rp  "+ gaji);
+     
+            }else if(gaji>=3000000 && gaji <5000000){
+              System.out.println("gaji anda di kenakan pajak sebesar 5%");
+              pajak = (gaji-(gaji*0.05));
+             System.out.println("Maka gaji anda saat ini adalah   : Rp"+ pajak);
+     
+            }else if(gaji >=5000000){
+              System.out.println("gaji anda di kenakan pajak sebesar 10%");
+              pajak =(gaji-(gaji*0.1));
+             System.out.println("Maka gaji anda saat ini adalah    : Rp"+ pajak);
+            }
+        }
+    }
+}
