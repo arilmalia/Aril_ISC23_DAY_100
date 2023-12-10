@@ -1,0 +1,22 @@
+package ISC_2023;
+import java.util.ArrayList;
+public class Main {
+    
+    public static void main(String[] args) {
+        ArrayList<String> Teman = new ArrayList<>();
+        
+        Teman.add("Gedry");
+        Teman.add("Holil");
+        Teman.add("Risky");
+        Teman.add("Rayen");
+        Teman.add("Taufik");
+        
+        for (int i = 0; i <= Teman.size(); i++){
+            System.out.println((i+1)+". "+Teman.get(i));
+        }
+        
+        System.out.println("\n\n");
+        
+    }
+}    
+        
