@@ -1,0 +1,22 @@
+package ISC_2023;
+import java.util.ArrayList;
+public class Main {
+    
+    public static void main(String[] args) {
+        ArrayList<Integer> Angka = new ArrayList<>();
+        for (int i = 0; i <= 10; i++) {
+            Angka.add(i);
+        }
+        for (int i = 0; i < Angka.size(); i++) {
+            System.out.println("Elemen ke-" + i + ": " + Angka.get(i));
+            
+        }    
+        System.out.println("Bilangan genap : ");
+        for (int i = 0; i < Angka.size(); i++) {
+            if (Angka.get(i) % 2 == 0) {
+                System.out.println("Elemen genap   "+ Angka.get(i));
+            }
+        }
+    }
+    
+}
