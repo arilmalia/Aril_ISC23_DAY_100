@@ -1,0 +1,19 @@
+package ISC_2023;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner ( System.in);
+        String [] namaDosen = new String [5];
+        
+        for (int i = 0;  i< namaDosen.length;  i++){
+            System.out.print("Masukan nama ke "+(i+1)+" : ");
+            namaDosen[i] = input.nextLine();
+        }
+        
+        for (int j = 0; j<= namaDosen.length; j++ ){
+            System.out.print(namaDosen[j]+",");
+        }
+        System.out.println("\n");
+    }
+}
