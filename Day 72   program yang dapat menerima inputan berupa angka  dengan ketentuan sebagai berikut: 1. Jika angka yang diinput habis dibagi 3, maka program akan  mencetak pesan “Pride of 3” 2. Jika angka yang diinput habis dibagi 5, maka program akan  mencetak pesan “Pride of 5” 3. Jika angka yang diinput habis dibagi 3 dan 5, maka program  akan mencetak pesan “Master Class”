@@ -1,0 +1,18 @@
+package ISC_2023;
+import java.util.*;
+public class Main {
+    
+    public static void main(String[] args) {
+       Scanner input = new Scanner (System.in);
+        System.out.print("Masukan angka  : ");
+        int  angka = input.nextInt();
+        
+        if(angka %3 == 0 &&  angka % 5 != 0){
+            System.out.print("Pride of of 3 ");
+            
+        }else if (angka % 5 == 0 && angka % 3!= 0){
+            System.out.print("pride of 5");
+        
+        }else if(angka % 3 == 0 && angka % 5 == 0){
+            System.out.print("Master Class");
+        }
