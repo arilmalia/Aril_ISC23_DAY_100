@@ -1,0 +1,29 @@
+package ISC_2023;
+import java.util.*;
+public class Main {
+    
+    public static void main(String[] args) {
+       Scanner input = new Scanner (System.in);
+        System.out.print("Masukan angka 1 \t: ");
+        int angka1 = input.nextInt();
+        System.out.print("Masukan angka 2 \t: ");
+        int angka2 = input.nextInt();
+        
+        int hasil = 0;
+        
+        hasil = angka1 +angka2;
+        System.out.print("hasil \t\t\t: "+hasil);
+        System.out.println();
+        
+        
+        if (hasil % 2 == 0){
+            System.out.println("karena genap makan ditambah 1 ");
+            System.out.println("hasil  bersih \t\t: "+(hasil+1));
+            
+        }else if (hasil % 2 == 1){
+            System.out.println("karena ganjil maka  ditambah  2 ");
+            System.out.println("hasil bersih \t\t: "+(hasil+2));
+        }
+        
+    }
+}
