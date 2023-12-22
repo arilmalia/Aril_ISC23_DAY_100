@@ -1,0 +1,24 @@
+package ISC_2023;
+import java.util.*;
+public class Main {
+    
+    public static void main(String[] args) {
+       Scanner input = new Scanner (System.in);
+        
+        int a [] =  {10, 100,  90, 88 , 77 , 33};
+        int maks = 0;
+        System.out.print("Sebelum di shorting : ");
+        System.out.println(Arrays.toString(a));
+        System.out.print("sesusah di shorting : ");
+        Arrays.sort(a);
+        System.out.println(Arrays.toString(a));
+        
+        System.out.print("Nilai  tertinggi    : ");
+        for (int i = 0;  i< a.length; i++){
+            maks = Math.max (maks, a[i]);
+            
+        }
+        
+        System.out.print(maks);
+    }
+}
