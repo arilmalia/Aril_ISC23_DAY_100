@@ -1,0 +1,16 @@
+package ISC_2023;
+import java.util.*;
+public class Main {
+    
+    public static void main(String[] args) {
+       Scanner input = new Scanner (System.in);
+        int a [] =  {10, 1, 11, 99, 88, -7, 33};
+        int kecil = 0 ;
+        System.out.println(Arrays.toString(a));
+           System.out.print("Nilai  terkecil     : ");
+        for (int i = 1;  i< a.length; i++){
+            kecil = Math.min (kecil, a[i]);
+        }
+        System.out.print(kecil);
+    }
+}
