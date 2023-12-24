@@ -1,0 +1,19 @@
+package ISC_2023;
+import java.util.*;
+public class Main {
+    
+    public static void main(String[] args) {
+       Scanner input = new Scanner (System.in);
+        
+        System.out.print("Masukan angka   : ");
+        int angka1 = input.nextInt();
+        
+        System.out.print("Masukan pangkat : ");
+        int angka2 = input.nextInt();
+        
+        double hasil = Math.pow (angka1, angka2);
+        
+        System.out.println("-------------------------------------------------");
+        System.out.print("Hasil dari "+angka1+" pangkat "+angka2 +"\nadalah \t\t: "+ hasil ); 
+    }
+}
