@@ -1,0 +1,19 @@
+package ISC_23;
+import java.util.*;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        System.out.println("-------------------------------------------------");
+        System.out.print("Masukan angka : ");
+        int angka = input.nextInt();
+        
+        double hasil  = 0;
+        System.out.print("-------------------------------------------------");
+        hasil = Math.sqrt(angka);
+        System.out.println("Akar pangkat dua dari "+ angka +"\nadalah \t      : " + hasil);
+        
+        System.out.println("-------------------------------------------------");
+    }
+    
+}
