@@ -1,0 +1,65 @@
+package ISC_23;
+import java.util.*;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        System.out.print("Golongan gaji \n 1. 4.000.000 \n 2. 7.000.000 \n 3. 10.000.000 \n");
+        
+        System.out.print("Masukan golongan gaji anda\t: ");
+        long  golongan = input.nextLong();
+        
+        System.out.print("lama kerja \t\t\t: ");
+        long lama = input.nextLong();
+        
+        System.out.println("------------------------------------------------");
+        
+        double bonus = 100000;
+        double hasil  = lama*bonus;
+        
+        if (lama >= 5 ){
+        
+             if (golongan == 1 ){
+                 System.out.print("Gaji anda " +(golongan = 4000000));
+                 System.out.println(" anda mendapatkan bonus karena bekerja selama " + lama +" tahun");
+                 System.out.println("Maka gaji bersih anda adalah \t: " + (golongan + hasil));
+                 
+             }else if ( golongan == 2 ){
+                 System.out.print("Gaji anda " + (golongan = 7000000));
+                 System.out.println(" anda mendapatkan bonus karena bekerja selama " + lama +" tahun");
+                 System.out.println("Maka gaji bersih anda adalah \t: " + (golongan + hasil));
+                 
+             }else if (golongan == 3 ){
+                 System.out.print("Gaji anda " + (golongan = 10000000));
+                 System.out.println(" anda mendapatkan bonus karena bekerja selama " + lama +" tahun");
+                 System.out.println("Maka gaji bersih anda adalah \t: " + (golongan + hasil));
+                 
+             }else{
+                 System.out.print("Tidak termasuk dalam golongan ");
+             }
+            
+        }else{
+            
+            if (golongan == 1 ){
+                 System.out.print("Gaji anda " +(golongan = 4000000));
+                 System.out.println(" anda tidak mendapatkan bonus karena hanya bekerja selama " + lama +" tahun");
+                 System.out.println("Maka gaji bersih anda adalah \t: " + (golongan));
+                 
+             }else if ( golongan == 2 ){
+                 System.out.print("Gaji anda " + (golongan = 7000000));
+                 System.out.println(" anda tidak mendapatkan bonus karena hanya bekerja salama " + lama +" tahun");
+                 System.out.println("Maka gaji bersih anda adalah \t: " + (golongan));
+                 
+             }else if (golongan == 3 ){
+                 System.out.print("Gaji anda " + (golongan = 10000000));
+                 System.out.println(" anda tidak mendapatkan  bonus karena hanya bekerja selama " + lama +" tahun");
+                 System.out.println("Maka gaji bersih anda adalah \t: " + (golongan));
+                 
+             }else{
+                 System.out.print("Tidak termasuk dalam golongan ");
+            
+        }
+            
+        }
+    }
+}
