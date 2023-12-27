@@ -1,0 +1,18 @@
+package ISC_23;
+import java.util.*;
+public class Main {
+    
+    public static void main(String[] args) {
+        String[] Siswa ={" aril"," holil"," Udin"};
+        
+        Siswa[1] = " abdi"; 
+        System.out.println(Siswa[0]);
+        System.out.println(Siswa[1]);
+        System.out.println(Siswa[2]);
+        
+        
+        
+        
+    }
+    
+}
