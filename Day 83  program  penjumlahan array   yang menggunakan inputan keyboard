@@ -1,0 +1,26 @@
+package ISC_23;
+import java.util.*;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        long a = 0;
+        long[] ril = new long [5];
+        
+        for (int i = 0; i < ril.length; i++) {
+            System.out.print("Masukan angka : ");
+            ril[i] = input.nextLong();
+            a += ril[i];
+        }
+        
+        System.out.println("output nya    : ");
+            for (int j = 0 ; j < ril.length; j++){
+            System.out.print(" "+ril[j]+", ");
+            }
+        System.out.println("");
+        
+        System.out.println("hasil penjumlahan index²-nya :  " +a);
+    }
+}
+
+
