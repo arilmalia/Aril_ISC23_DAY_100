@@ -1,0 +1,23 @@
+package ISC_23;
+import java.util.*;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        
+        String user = "Aril";
+        String pasword = "ISC";
+        System.out.print("Masukan  user    : ");
+        user = input.nextLine();
+        System.out.print("Masukan  pasword : ");
+        pasword = input.nextLine();
+        System.out.println("----------------------------------------------");
+        if (user.equalsIgnoreCase("Aril") && pasword.equalsIgnoreCase("ISC")){
+            System.out.print("LOGIN ANDA BERHASIL \n Selamat Datang ");
+        }else{
+            System.out.print("Login gagal");
+        }
+    }
+}
+
+
