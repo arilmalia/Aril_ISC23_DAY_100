@@ -1,0 +1,14 @@
+package ISC_23;
+import java.util.*;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        String [][] rill= {
+            {"Aril", "holil", "udin"},
+            {"jois", "melani", "dewi"} 
+        };
+        System.out.println(rill[0][0]);
+        System.out.println(rill[1][0]);
+    }
+}
