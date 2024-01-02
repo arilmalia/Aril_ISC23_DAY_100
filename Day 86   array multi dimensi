@@ -1,0 +1,15 @@
+package ISC_23;
+import java.util.*;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        String [][] tahunBaru = {{"2023"}};
+        tahunBaru[0][0] ="2024";
+        String tahunBaru1;
+        tahunBaru1 = tahunBaru[0][0];
+        tahunBaru[0][0] = "Happy New Year";
+        
+        System.out.println("  "+tahunBaru[0][0]);
+    }
+}
