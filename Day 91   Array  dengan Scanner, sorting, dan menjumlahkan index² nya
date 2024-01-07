@@ -1,0 +1,30 @@
+package ISC_23;
+import java.util.*;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int hasil = 0;
+        int[] angka = new int[5];
+        //Menampilkan index² dengan Scanner
+        for (int i = 0; i < angka.length; i++) {
+            System.out.print("Indeks ke-" + i + " = ");
+            angka[i] = input.nextInt();
+        }
+        System.out.println("-------------------------------------------------");
+        System.out.print("Output \t\t\t: ");
+        for (int i =  0;  i< angka.length; i++){
+            System.out.print(angka[i]+" ");
+        }
+        //Sorting   index²-nya
+        System.out.println("");
+        Arrays.sort(angka);
+        System.out.print("Hasil sorting   \t: ");
+        System.out.println(Arrays.toString(angka));
+        // penjumlahan index²-nya
+        for(int i = 0; i< angka.length; i++){
+            hasil += angka[i];
+        }
+        System.out.print("Hasil penjumlahan index : " + hasil);
+    }
+}
