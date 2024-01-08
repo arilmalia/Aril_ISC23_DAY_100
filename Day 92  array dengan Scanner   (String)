@@ -1,0 +1,19 @@
+package ISC_23;
+import java.util.*;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        String [] nama = new String [5];
+        //Menampilkan index² dengan Scanner
+        for (int i = 0; i < nama.length; i++) {
+            System.out.print("Indeks ke-" + i + " = ");
+            nama [i] = input.nextLine();
+        }
+        System.out.println("-------------------------------------------------");
+        System.out.print("Output \t\t: ");
+        for (int i =  0;  i< nama.length; i++){
+            System.out.print(nama[i]+" ");
+        }
+    }
+}
