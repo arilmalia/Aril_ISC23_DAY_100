@@ -1,0 +1,14 @@
+package ISC_23;
+import java.util.*;
+public class Main {
+//  Membuat program method
+    static void biodata(){
+        System.out.println("Nama saya Aril Malia ");
+        System.out.println("Umur 19 tahun");
+        System.out.println("Tinggal di Batualang");
+        System.out.println("Kuliah di Unsulbar");
+    }
+    public static void main(String[] args) {
+        biodata();
+    }
+}
