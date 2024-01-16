@@ -1,0 +1,30 @@
+package ISC_23;
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        String[] puisi = {
+            " Awal kami memulai",
+            " kami tak tau apa-apa",
+            " tapi karena semangat",
+            " dan motivasi yang di berikan",
+            " oleh mentor kami yang luar biasa",
+            " kami bisa lalui semuanya",
+            " terimakasih kak Lisa",
+            " terimakasih kak Afrizal",
+            " memang kalian mentor terbaik",
+            " senior terkeren :)",
+            " kami tak ada apa-apa tanpa kalian",
+            " Terimakasih :)",
+            "  Mentor ku ",
+        };
+        for( String baris : puisi){
+            System.out.println(baris);
+        
+            try {
+                Thread.sleep(3880);
+            }catch (InterruptedException e){
+                e.printStackTrace();
+            }
+        }
+    }
+}
